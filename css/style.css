@@ -1,0 +1,35 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00a2ff, #400a72);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  h1 {
+    color: white;
+  }
+
+  .subtitle-1 {
+    color: white;
+  }
+
+  .subtitle-2 {
+    font-size: 1rem;
+    color: white;
+  }
+
+  .profile-img {
+    height: 200px;
+    border-radius: 50%;
+  }
